@@ -53,13 +53,9 @@ alert(num);
 
 
 <h2>Решение задач</h2>
-<p>Решение задач:</p>
-<ol>
-    <li>
-        Создал переменную str="hdfgv" и по индексам нужных символов вывел их в абзац с id="1". 
-    </li>
-</ol>
-Указанные задачи на codewars.com можно посмотреть в моем профиле - https://www.codewars.com/users/MovingX/completed_solutions
+
+
+#Указанные задачи на codewars.com можно посмотреть в моем профиле - https://www.codewars.com/users/MovingX/completed_solutions
 
 <h2>Вывод</h2>
 Я научился пользоваться перменными и проводить операции над ними.
