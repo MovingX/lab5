@@ -53,9 +53,8 @@ alert(num);
 
 
 <h2>Решение задач</h2>
-```html
-# lab5/index1.html
-```
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=https://raw.githubusercontent.com/username/project/master/path/to/file&lines=1-42) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
 
 #Указанные задачи на codewars.com можно посмотреть в моем профиле - https://www.codewars.com/users/MovingX/completed_solutions
 
