@@ -54,7 +54,7 @@ alert(num);
 
 <h2>Решение задач</h2>
 ```html
-# path/lab5/index1.html
+# lab5/index1.html
 ```
 
 #Указанные задачи на codewars.com можно посмотреть в моем профиле - https://www.codewars.com/users/MovingX/completed_solutions
