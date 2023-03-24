@@ -128,7 +128,9 @@
 		}
 
 		function task12() {
-
+			var resultDiv = document.getElementById("result");
+			var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // Замените этот массив на свой собственный
+			resultDiv.innerHTML = arr.reduce((acc, curr) => curr % 2 === 0 ? acc + Math.sqrt(curr) : acc, 0);
 		}
 
 		function task13() {
