@@ -53,7 +53,7 @@ alert(num);
 
 
 <h2>Решение задач</h2>
-```rb
+```html
 # path/to/your/index1.html
 ```
 
