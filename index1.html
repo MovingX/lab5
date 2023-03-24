@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Лабораторная 5</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<div class="header">
+			<h1>Лабораторная 5</h1>
+			<li><a href="index1.html">1 страница</a></li>			
+		</div>		
+		
+		<div class="Block1">	
+			
+			<h1>Задачи</h1>
+			<button onclick="task1()">Задача 1</button><br>		
+			<button onclick="task2()">Задача 2</button><br>	
+			<button onclick="task3()">Задача 3</button><br>	
+			<button onclick="task4()">Задача 4</button><br>	
+			<button onclick="task5()">Задача 5</button><br>	
+			<button onclick="task6()">Задача 6</button><br>	
+			<button onclick="task7()">Задача 7</button><br>
+			<button onclick="task8()">Задача 8</button><br>
+			<button onclick="task9()">Задача 9</button><br>
+			<button onclick="task10()">Задача 10</button><br>
+			<button onclick="task11()">Задача 11</button><br>
+			<button onclick="task12()">Задача 12</button><br>
+			<button onclick="task13()">Задача 13</button><br>
+			<button onclick="task14()">Задача 14</button><br>
+			<button onclick="task15()">Задача 15</button><br>
+			<button onclick="task16()">Задача 16</button><br>
+			<button onclick="task17()">Задача 17</button><br>
+			<button onclick="task18()">Задача 18</button><br>
+			<button onclick="task19()">Задача 19</button><br>
+			<button onclick="task20()">Задача 20</button><br>
+			<button onclick="task21()">Задача 21</button><br>
+			<button onclick="task22()">Задача 22</button><br>
+			<button onclick="task23()">Задача 23</button><br>
+			<button onclick="task1CW()">Задача 1 из CodeWars</button><br>
+			<button onclick="task2CW()">Задача 2 из CodeWars</button><br>
+			<button onclick="task3CW()">Задача 3 из CodeWars</button><br>
+			<button onclick="task4CW()">Задача 4 из CodeWars</button><br>
+			<button onclick="task5CW()">Задача 5 из CodeWars</button><br>
+			<button onclick="task6CW()">Задача 6 из CodeWars</button><br>
+			<div id="result">Тут будет ответ!!!</div>
+	
+		</div>
+		
+		<script>
+		function task1() {
+			var str = 'hdfgv';
+			document.getElementById("result").innerHTML =str[0] + " " + str[2] + " " + str[str.length - 1]; // выводим первый символ
+		}
+
+		function task2() {
+			var secondsInHour = 60 * 60;
+			document.getElementById("result").innerHTML ="В одном часе " + secondsInHour + " секунд";
+		}
+
+		function task3() {
+			var num = 1;
+			num += 12;
+			num -= 14;
+			num *= 5;
+			num /= 7;
+			num++;
+			num--;
+			alert(num);
+		}
+
+		function task4() {
+			var num = 3;
+			alert(num);
+		}
+
+		function task5() {
+			var a = 10;
+			var b = 2;
+			document.getElementById("result").innerHTML ="Сумма a и b: " + (a + b) + "<br>" +
+                                               "Разность a и b: " + (a - b) + "<br>" +
+                                               "Произведение a и b: " + (a * b) + "<br>" +
+                                               "Частное a и b: " + (a / b) + "<br>";
+		}
+
+		function task6() {
+			var c = 15;
+			var d = 2;
+			var result = c + d;
+			document.getElementById("result").innerHTML = result;
+		}
+
+		function task7() {
+			var a = 10;
+			var b = 2;
+			var c = 5;
+			document.getElementById("result").innerHTML = "Сумма a, b и c: " + (a + b + c);
+		}
+
+		function task8() {
+			var a = 17;
+			var b = 10;
+			var c = a - b;
+			var d = 7;
+			var result = c + d;
+			document.getElementById("result").innerHTML = result;
+		}
+		function task9() {
+			var secondsInHour = 60 * 60;
+			var secondsInDay = secondsInHour * 24;
+			var secondsInMonth = secondsInDay * 30;
+			document.getElementById("result").innerHTML = "Секунд в часе " + secondsInHour + "<br>" + "Секунд в дне: " + secondsInDay + "<br>" + "Секунд в месяце: " + secondsInMonth;
+		}
+
+		function task10() {
+			var date = new Date();
+			var hour = date.getHours();
+			var minute = date.getMinutes();
+			var second = date.getSeconds();
+			var time = hour + ":" + minute + ":" + second;
+			document.getElementById("result").innerHTML = "Текущее время: " + time;
+		}
+
+		function task11() {
+			var num = prompt("Введите число:");
+			var square = num * num;
+			document.getElementById("result").innerHTML = "Число: " + num + " = в квадрате: " + square;
+		}
+
+		function task12() {
+
+		}
+
+		function task13() {
+			var applePrice = 1.15;
+			var orangePrice = 2.30;
+			var totalPrice = applePrice + orangePrice;
+			document.getElementById("result").innerHTML = "Сумма яблока и апельсина =" + totalPrice;
+		}
+
+		function task14() {
+			var x = 5;
+			alert(x++);
+			//Будет выведено значение 5, так как оператор ++ увеличивает значение переменной после того, как она была выведена.
+		}
+
+		function task15() {
+			document.getElementById("result").innerHTML = [] + false - null + true;
+			//неопределенное значение NaN
+		}
+
+		function task16() {
+			let y = 1;
+			let x = (y = 2);
+			var text = "чтобы увидеть результат откройте консоль ctrl + shift + i Ответом будет 2"
+			console.log(x);
+			document.getElementById("result").innerHTML = text;
+		}
+
+		function task17() {
+			document.getElementById("result").innerHTML = [] + 1 + 2;
+			//Результатом будет строка "12", так как при сложении массива и числа 1 получится строка "1"
+			//А затем при сложении строк "1" и "2" получится строка "12"
+		}
+		
+		function task18() {
+			var a6 = 5 % 3;
+			var a7 = 3 % 5;
+			var a8 = 5 + '3';
+			var a9 = '5' - 3;
+			var a10 = 75 + 'кг';
+
+			var result = "a6: " + a6 + "<br>" +
+						"a7: " + a7 + "<br>" +
+						"a8: " + a8 + "<br>" +
+						"a9: " + a9 + "<br>" +
+						"a10: " + a10 + "<br>";
+
+			document.getElementById("result").innerHTML = result;
+		}
+
+
+		function task19() {
+			var height = 23;
+			var width = 10;
+			var s = height * width;
+			document.getElementById("result").innerHTML = "Площадь прямоугольника: " + s;
+		}
+
+		function task20() {
+			var heightC = 10;
+			var dC = 4;
+			var r = dC / 2;
+			var v = 3.14 * r * r * heightC;
+			document.getElementById("result").innerHTML = "Объем цилиндра: " + v;
+		}
+
+		function task21() {
+			var S = 2000000;
+			var p = 0.1;
+			var years = 5;
+			var perepl = S * p * years;
+
+			document.getElementById("result").innerHTML = "Переплата по кредиту: " + perepl + " руб.";
+		}	
+
+		function task22() {
+			var str = "Привет";
+			var num = 123;
+			var flag = true;
+			var txt = "true";
+
+			var result = "str: " + typeof str + "<br>" +
+						"num: " + typeof num + "<br>" +
+						"flag: " + typeof flag + "<br>" +
+						"txt: " + typeof txt + "<br>";
+
+			document.getElementById("result").innerHTML = result;
+		}
+
+		function task23() {
+			var num = prompt("Введите число:");
+			var opposite = -num;
+
+			document.getElementById("result").innerHTML = "Противоположное число: " + opposite;
+		}
+		
+		function task1CW() {
+			var sperm = prompt("Введите хромосомы:");
+			var resultDiv = document.getElementById("result");
+			if (sperm == "XY") {
+				return resultDiv.innerHTML = "Congratulations! You're going to have a son.";
+			} else if (sperm == "XX") {
+				return resultDiv.innerHTML = "Congratulations! You're going to have a daughter.";
+			} else {
+				return resultDiv.innerHTML = "not value";
+			}
+		}
+		
+		function task2CW() {
+			var number = prompt("Введите число:");
+			var resultDiv = document.getElementById("result");
+			if (number % 2 == 0)
+			{
+			resultDiv.innerHTML = number * 8;
+			} else resultDiv.innerHTML = number*9;
+		}
+		
+		function task3CW(){
+			var n = prompt("Введите число:");
+			var resultDiv = document.getElementById("result");
+			var temp = Math.round(Math.sqrt(n))
+			var result = Math.pow(temp, 2)
+			resultDiv.innerHTML = result;
+		}
+		
+		function task4CW(){
+			var cuts = prompt("Введите число:");
+			var resultDiv = document.getElementById("result");
+			if (cuts == 0) return resultDiv.innerHTML = 1;
+			var temp = Math.pow(cuts + 1, 3);
+			var temp1 = Math.pow(cuts - 1, 3);
+			resultDiv.innerHTML = temp - temp1;
+		}
+		
+		function periodIsLate(last, today, cycleLength) {
+			var temp = Math.ceil((today - last)/(1000*60*60*24));
+			if (temp > cycleLength) return true; else return false;
+		}
+		
+		function task6CW(){
+			var x = prompt("Введите строку:");
+			var resultDiv = document.getElementById("result");
+			resultDiv.innerHTML = x.replaceAll(" ", "");
+		}
+		
+		</script>		
+
+		<footer>
+			<p>Выполнено © Морошкином Максимом</p>
+		</footer>
+	</body>
+</html>	
