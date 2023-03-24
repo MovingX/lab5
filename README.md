@@ -95,7 +95,7 @@
         Противоположное число получим, если исходное умножим на -1.
     </li>
 </ol>
-Указанные задачи на codewars.com можно посмотреть в моем профиле -https://www.codewars.com/users/ShiWas
+Указанные задачи на codewars.com можно посмотреть в моем профиле - https://www.codewars.com/users/ShiWas](https://www.codewars.com/users/MovingX/completed_solutions)
 
 <h2>Вывод</h2>
 Я научился пользоваться перменными и проводить операции над ними.
