@@ -53,10 +53,7 @@ alert(num);
 
 
 <h2>Решение задач</h2>
-CODE:src=https://github.com/MovingX/lab5/blob/main/index1.html
-
-
-#Указанные задачи на codewars.com можно посмотреть в моем профиле - https://www.codewars.com/users/MovingX/completed_solutions
-
+Код решения задач = https://github.com/MovingX/lab5/blob/main/index1.html
+задачи на codewars.com  = https://www.codewars.com/users/MovingX/completed_solutions
 <h2>Вывод</h2>
-Я научился пользоваться перменными и проводить операции над ними.
+Я научился работать с JavaScript, GitHub, CodeWars
