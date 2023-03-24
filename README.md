@@ -53,7 +53,9 @@ alert(num);
 
 
 <h2>Решение задач</h2>
-
+```rb
+# path/to/your/index1.html
+```
 
 #Указанные задачи на codewars.com можно посмотреть в моем профиле - https://www.codewars.com/users/MovingX/completed_solutions
 
