@@ -53,7 +53,7 @@ alert(num);
 
 
 <h2>Решение задач</h2>
-# Код решения задач = https://github.com/MovingX/lab5/blob/main/index1.html
-# задачи на codewars.com  = https://www.codewars.com/users/MovingX/completed_solutions
+Код решения задач = https://github.com/MovingX/lab5/blob/main/index1.html <br>
+Задачи на codewars.com  = https://www.codewars.com/users/MovingX/completed_solutions <br>
 <h2>Вывод</h2>
 Я научился работать с JavaScript, GitHub, CodeWars
