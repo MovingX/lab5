@@ -56,6 +56,7 @@ alert(num);
 code
 Код решения задач = https://github.com/MovingX/lab5/blob/main/index1.html <br>
 
+```html
 <pre>
 
 <script>
@@ -289,7 +290,7 @@ code
 		
 		</script>		
 </pre>
-
+```
 Задачи на codewars.com  = https://www.codewars.com/users/MovingX/completed_solutions <br>
 <h2>Вывод</h2>
 Я научился работать с JavaScript, GitHub, CodeWars
