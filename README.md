@@ -55,6 +55,9 @@ alert(num);
 <h2>Решение задач</h2>
 code
 Код решения задач = https://github.com/MovingX/lab5/blob/main/index1.html <br>
+
+<pre>
+
 <script>
 		function task1() {
 			var str = 'hdfgv';
@@ -285,6 +288,7 @@ code
 		}
 		
 		</script>		
+</pre>
 
 Задачи на codewars.com  = https://www.codewars.com/users/MovingX/completed_solutions <br>
 <h2>Вывод</h2>
